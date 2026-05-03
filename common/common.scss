@@ -1,0 +1,48 @@
+:root {
+  --primary: #00c2b2;
+  --secondary: #0f172a;
+  --accent: #00e5ff;
+}
+
+/* Fondo general */
+body {
+  background: #0b0f14;
+  color: #e5e7eb;
+}
+
+/* HEADER (barra superior) */
+.d-header {
+  background: #0f172a;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* TARJETAS DE CATEGORÍAS */
+.category-box {
+  background: #111827;
+  border-radius: 16px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.category-box:hover {
+  transform: scale(1.03);
+  border-color: var(--primary);
+}
+
+/* TÍTULOS */
+.category-name {
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+/* BOTONES */
+.btn-primary {
+  background: var(--primary);
+  border-radius: 12px;
+}
+
+/* EFECTO GLASS */
+.card-container {
+  backdrop-filter: blur(10px);
+}
