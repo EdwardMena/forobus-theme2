@@ -1,0 +1,8 @@
+color_primary:
+  default: "#00c2b2"
+
+color_background:
+  default: "#0b0f14"
+
+border_radius:
+  default: "16px"
