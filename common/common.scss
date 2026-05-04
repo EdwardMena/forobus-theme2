@@ -1,52 +1,54 @@
 /* FONDO GENERAL */
 body {
-  background: #0f172a;
-  color: #e5e7eb;
-}
-
-/* CONTENEDOR PRINCIPAL */
-.wrap {
-  background: transparent;
+  background: #0f172a !important;
+  color: #e5e7eb !important;
 }
 
 /* HEADER */
 .d-header {
-  background: linear-gradient(90deg, #0f172a, #1e293b);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background: linear-gradient(90deg, #0f172a, #1e293b) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
 }
 
-/* TARJETAS DE CATEGORÍAS */
-.category-list .category-box {
-  background: #1e293b;
-  border-radius: 16px;
-  padding: 20px;
-  transition: 0.3s;
-  border: none;
+/* TARJETA REAL (LA TUYA) */
+.category-box-inner {
+  background: #1e293b !important;
+  border-radius: 18px !important;
+  padding: 20px !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
 }
 
-/* EFECTO HOVER */
-.category-list .category-box:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+/* HOVER EFECTO PRO */
+.category-box-inner:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
 }
 
-/* TITULOS */
-.category-list .category-name {
-  color: #22c55e;
+/* TITULO */
+.category-box-heading h3 {
+  color: #22c55e !important;
   font-weight: bold;
 }
 
-/* TEXTO */
-.category-list .category-description {
-  color: #9ca3af;
+/* DESCRIPCIÓN */
+.category-box-inner .description {
+  color: #9ca3af !important;
+}
+
+/* SUBCATEGORÍAS */
+.subcategories .badge-category {
+  background: #0f172a !important;
+  border-radius: 8px;
+  padding: 5px 10px;
 }
 
 /* SIDEBAR */
 .sidebar-wrapper {
-  background: #020617;
+  background: #020617 !important;
 }
 
 /* BOTONES */
 .btn {
-  border-radius: 12px;
+  border-radius: 12px !important;
 }
