@@ -1,3 +1,52 @@
+/* FONDO GENERAL */
 body {
-  background: red !important;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.wrap {
+  background: transparent;
+}
+
+/* HEADER */
+.d-header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* TARJETAS DE CATEGORÍAS */
+.category-list .category-box {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+  transition: 0.3s;
+  border: none;
+}
+
+/* EFECTO HOVER */
+.category-list .category-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* TITULOS */
+.category-list .category-name {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+/* TEXTO */
+.category-list .category-description {
+  color: #9ca3af;
+}
+
+/* SIDEBAR */
+.sidebar-wrapper {
+  background: #020617;
+}
+
+/* BOTONES */
+.btn {
+  border-radius: 12px;
 }
